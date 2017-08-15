@@ -11,6 +11,8 @@ It's worth noting that, [HSTS (HTTP Strict Transport Security)](https://en.wikip
 
 The extension updates the URL only - no changes are made to tags, folders/directories, title, description, etc.
 
+This extension was inspired by a [then-18-year-old bug](https://bugzilla.mozilla.org/show_bug.cgi?id=8648).
+
 ---
 ## Usage
 The extension is available for [Firefox](https://addons.mozilla.org/EN-US/firefox/addon/bookmark-301-updater/) and [Chrome](https://chrome.google.com/webstore/detail/llmjpphjhkiglbpmfhpijfdjgmjlgcjo).
