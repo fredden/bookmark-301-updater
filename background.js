@@ -3,8 +3,6 @@
 (function() {
   'use strict';
 
-  function no_op() {}
-
   function process301(responseDetails) {
     if (301 == responseDetails.statusCode) {
       updateBookmarks(responseDetails.url, responseDetails.redirectUrl);
@@ -12,18 +10,13 @@
   }
 
   function updateBookmarks(old_url, new_url) {
-    chrome.bookmarks.search({url: old_url}, updateBookmarksCallback)
-    .then(updateBookmarksCallback, no_op);
-
-    function updateBookmarksCallback(bookmarkItems) {
+    chrome.bookmarks.search({url: old_url}, function(bookmarkItems) {
       for (let item of bookmarkItems) {
         chrome.bookmarks.update(item.id, {
           url: new_url
-        })
-        .then(no_op, no_op);
+        });
       }
-    }
-
+    });
   }
 
   chrome.webRequest.onBeforeRedirect.addListener(
