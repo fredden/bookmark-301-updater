@@ -13,4 +13,4 @@ The extension updates the URL only - no changes are made to tags, folders/direct
 
 ---
 ## Usage
-The extension is available for [Firefox] (https://addons.mozilla.org/EN-US/firefox/addon/bookmark-301-updater/). A Chrome version of this extension is coming soon.
+The extension is available for [Firefox](https://addons.mozilla.org/EN-US/firefox/addon/bookmark-301-updater/) and [Chrome](https://chrome.google.com/webstore/detail/llmjpphjhkiglbpmfhpijfdjgmjlgcjo).
