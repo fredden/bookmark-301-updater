@@ -1,2 +1,2 @@
 xpi:
-	zip extension.xpi manifest.json bookmark.svg background.js
+	zip extension.xpi manifest.json background.js icons/*
