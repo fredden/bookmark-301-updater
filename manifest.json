@@ -1,15 +1,18 @@
 {
   "manifest_version": 2,
-  "version": "1.3",
+  "version": "1.4",
   "author": "Dan Wallis",
   "name": "Bookmark 301 Updater",
   "description": "Automatically update bookmarks for permanently moved resources, while browsing",
 
   "icons": {
-    "24": "bookmark.svg",
-    "48": "bookmark.svg",
-    "96": "bookmark.svg",
-    "128": "bookmark.svg"
+    "16": "icons/bookmark-16.png",
+    "24": "icons/bookmark-24.png",
+    "32": "icons/bookmark-32.png",
+    "48": "icons/bookmark-48.png",
+    "96": "icons/bookmark-96.png",
+    "128": "icons/bookmark-128.png",
+    "256": "icons/bookmark-256.png"
   },
 
   "permissions": [
