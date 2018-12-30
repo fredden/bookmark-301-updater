@@ -1,3 +1,4 @@
+/* global chrome */
 // Note that this does not work with HSTS. Those URLs will always stay
 // not-updated, as that's not an explicit 301 from the bookmarked page.
 (function () {
