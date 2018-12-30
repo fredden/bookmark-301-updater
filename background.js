@@ -4,7 +4,7 @@
   'use strict'
 
   function process301 (responseDetails) {
-    if (301 == responseDetails.statusCode) {
+    if ([301, 308].includes(responseDetails.statusCode)) {
       updateBookmarks(responseDetails.url, responseDetails.redirectUrl)
     }
   }

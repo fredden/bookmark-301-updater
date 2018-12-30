@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.4",
+  "version": "1.5",
   "author": "Dan Wallis",
   "name": "Bookmark 301 Updater",
   "description": "Automatically update bookmarks for permanently moved resources, while browsing",
