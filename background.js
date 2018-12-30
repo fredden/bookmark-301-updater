@@ -1,11 +1,11 @@
 // Note that this does not work with HSTS. Those URLs will always stay
 // not-updated, as that's not an explicit 301 from the bookmarked page.
 (function() {
-  'use strict';
+  'use strict'
 
   function process301(responseDetails) {
     if (301 == responseDetails.statusCode) {
-      updateBookmarks(responseDetails.url, responseDetails.redirectUrl);
+      updateBookmarks(responseDetails.url, responseDetails.redirectUrl)
     }
   }
 
@@ -14,14 +14,14 @@
       for (let item of bookmarkItems) {
         chrome.bookmarks.update(item.id, {
           url: new_url
-        });
+        })
       }
-    });
+    })
   }
 
   chrome.webRequest.onBeforeRedirect.addListener(
     process301,
     {urls: ["<all_urls>"]}
-  );
+  )
 
-})();
+})()
