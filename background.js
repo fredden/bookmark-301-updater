@@ -9,11 +9,11 @@
     }
   }
 
-  function updateBookmarks (old_url, new_url) {
-    chrome.bookmarks.search({ url: old_url }, function (bookmarkItems) {
+  function updateBookmarks (oldURL, newURL) {
+    chrome.bookmarks.search({ url: oldURL }, function (bookmarkItems) {
       for (let item of bookmarkItems) {
         chrome.bookmarks.update(item.id, {
-          url: new_url
+          url: newURL
         })
       }
     })
