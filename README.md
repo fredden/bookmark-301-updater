@@ -15,4 +15,11 @@ This extension was inspired by a [then-18-year-old bug](https://bugzilla.mozilla
 
 ---
 ## Usage
-The extension is available for [Firefox](https://addons.mozilla.org/EN-US/firefox/addon/bookmark-301-updater/) and [Chrome](https://chrome.google.com/webstore/detail/llmjpphjhkiglbpmfhpijfdjgmjlgcjo).
+The extension is available for:
+* [ Firefox](https://addons.mozilla.org/EN-US/firefox/addon/bookmark-301-updater/)
+ [![](https://img.shields.io/amo/users/bookmark-301-updater.svg?style=plastic)](https://addons.mozilla.org/EN-US/firefox/addon/bookmark-301-updater/)
+ [![](https://img.shields.io/amo/stars/bookmark-301-updater.svg?style=plastic)](https://addons.mozilla.org/EN-US/firefox/addon/bookmark-301-updater/)
+
+* [Chrome](https://chrome.google.com/webstore/detail/llmjpphjhkiglbpmfhpijfdjgmjlgcjo)
+ [![](https://img.shields.io/chrome-web-store/users/llmjpphjhkiglbpmfhpijfdjgmjlgcjo.svg?style=plastic)](https://chrome.google.com/webstore/detail/llmjpphjhkiglbpmfhpijfdjgmjlgcjo)
+ [![](https://img.shields.io/chrome-web-store/stars/llmjpphjhkiglbpmfhpijfdjgmjlgcjo.svg?style=plastic)](https://chrome.google.com/webstore/detail/llmjpphjhkiglbpmfhpijfdjgmjlgcjo)
